@@ -2,6 +2,10 @@
 layout: default
 ---
 
-# Welcome
+## Welcome
 
-[Link to another page](./another-page.html).
+[LinkedIn](https://www.linkedin.com/in/owen-williams-6768071b7)
+[About me](./another-page.html).
+[Posts]
+
+
