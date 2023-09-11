@@ -8,12 +8,46 @@ layout: default
 
 [About me](./Aboutme.md).
 
+<!DOCTYPE html>
 <html>
 <head>
     <title>Dropdown Menu</title>
     <style>
-        /* Styles for the dropdown menu (similar to previous examples) */
-        /* ... */
+        /* Styles for the dropdown menu */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+        .dropdown-content a {
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -21,32 +55,11 @@ layout: default
         <button class="dropbtn">Posts</button>
         <div class="dropdown-content">
             <a href="https://owenw1lliams.github.io/posts.html">Posts</a>
-            <a href="https://owenw1lliams.github.io/posts.html">Posts</a>
             <!-- Add more links to your blog posts with their respective URLs -->
         </div>
     </div>
-
-    <script>
-        // JavaScript to handle navigation when an option is selected
-        document.addEventListener('DOMContentLoaded', function () {
-            var dropdown = document.querySelector('.dropdown');
-            var links = dropdown.querySelectorAll('a');
-
-            links.forEach(function (link) {
-                link.addEventListener('click', function (event) {
-                    // Prevent the default behavior of the link (e.g., navigating away)
-                    event.preventDefault();
-
-                    // Get the href attribute of the clicked link
-                    var href = link.getAttribute('href');
-
-                    // Redirect to the specified URL
-                    window.location.href = href;
-                });
-            });
-        });
-    </script>
 </body>
 </html>
+
 
 
