@@ -11,7 +11,7 @@ layout: default
 <div class="dropdown">
     <button class="dropbtn">Posts</button>
     <div class="dropdown-content">
-        <a href="#">./posts.md</a>
+        <a href="#">https://google.com</a>
     </div>
 </div>
 
