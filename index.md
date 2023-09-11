@@ -8,6 +8,6 @@ layout: default
 
 [About me](./Aboutme.md).
 
-[Posts]
+[Posts](./posts.md).
 
 
