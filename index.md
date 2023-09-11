@@ -50,7 +50,7 @@ layout: default
 </head>
 <body>
     <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
+        <button class="dropbtn">Posts</button>
         <div class="dropdown-content">
             <a href="#">[Posts](https://owenw1lliams.github.io/posts.html)</a>
             <!-- Add more links for your other posts here -->
