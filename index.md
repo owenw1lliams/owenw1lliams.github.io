@@ -13,7 +13,7 @@ layout: default
 </div>
 <div class="dropdown-content">
     <a rel="posts" target="_blank" href="./posts.md">posts</a>
-[Posts](./posts.md). 
+
 
 
 
