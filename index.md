@@ -9,11 +9,13 @@ layout: default
 [About me](./Aboutme.md).
 
 <div class="dropdown">
-    <button>Posts</button>
+    <button class="dropbtn">Posts</button>
+    <div class="dropdown-content">
+        <a href="#">./posts.md</a>
+    </div>
 </div>
-<div class="dropdown-content">
-    <a rel="posts" target="_blank" href="./posts.md">posts</a>
-</div>
+
+   
 
 
 
