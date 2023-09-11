@@ -52,7 +52,7 @@ layout: default
     <div class="dropdown">
         <button class="dropbtn">Dropdown</button>
         <div class="dropdown-content">
-            <a href="#">posts.md</a>
+            <a href="#">./posts.md</a>
             <!-- Add more links for your other posts here -->
         </div>
     </div>
