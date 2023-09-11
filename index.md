@@ -11,6 +11,8 @@ layout: default
 <div class="dropdown">
     <button>Posts</button>
 </div>
+<div class="dropdown-content">
+    <a rel="posts" target="_blank" href="./posts.md">posts</a>
 [Posts](./posts.md). 
 
 
