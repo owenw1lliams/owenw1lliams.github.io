@@ -8,7 +8,6 @@ layout: default
 
 [About me](./Aboutme.md).
 
-<!DOCTYPE html>
 <html>
 <head>
     <title>Dropdown Menu</title>
