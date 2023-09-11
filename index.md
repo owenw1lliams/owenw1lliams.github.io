@@ -7,55 +7,47 @@ layout: default
 [LinkedIn](https://www.linkedin.com/in/owen-williams-6768071b7)
 
 [About me](./Aboutme.md).
- <html>
- <head>
+
+<!DOCTYPE html>
+<html>
+<head>
     <title>Dropdown Menu</title>
     <style>
-        /* Style for the dropdown button */
-        .dropbtn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-        }
-
-        /* Style for the dropdown content (hidden by default) */
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f1f1f1;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-
-        /* Style for the dropdown links */
-        .dropdown-content a {
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
-
-        /* Change color of dropdown links on hover */
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
-
-        /* Show the dropdown content when the button is clicked */
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+        /* Styles for the dropdown menu (similar to previous examples) */
+        /* ... */
     </style>
 </head>
 <body>
     <div class="dropdown">
         <button class="dropbtn">Posts</button>
         <div class="dropdown-content">
-            <a href="#">https://owenw1lliams.github.io/posts.html</a>
-            <!-- Add more links for your other posts here -->
+            <a href="https://owenw1lliams.github.io/posts.html">Posts</a>
+            <a href="https://owenw1lliams.github.io/posts.html">Posts</a>
+            <!-- Add more links to your blog posts with their respective URLs -->
         </div>
     </div>
+
+    <script>
+        // JavaScript to handle navigation when an option is selected
+        document.addEventListener('DOMContentLoaded', function () {
+            var dropdown = document.querySelector('.dropdown');
+            var links = dropdown.querySelectorAll('a');
+
+            links.forEach(function (link) {
+                link.addEventListener('click', function (event) {
+                    // Prevent the default behavior of the link (e.g., navigating away)
+                    event.preventDefault();
+
+                    // Get the href attribute of the clicked link
+                    var href = link.getAttribute('href');
+
+                    // Redirect to the specified URL
+                    window.location.href = href;
+                });
+            });
+        });
+    </script>
 </body>
 </html>
+
 
