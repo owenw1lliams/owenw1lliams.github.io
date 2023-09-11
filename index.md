@@ -11,9 +11,12 @@ layout: default
  <div class="dropdown">
   <button class="dropbtn">Dropdown</button>
   <div class="dropdown-content">
-    <a href="#">google.com</a>
-    <a href="#">youtube.com</a>
-    <a href="#">linkedin.com</a>
+    
+   <a href="#">google.com</a>
+    
+   <a href="#">youtube.com</a>
+    
+   <a href="#">linkedin.com</a>
   </div>
 </div> 
 
