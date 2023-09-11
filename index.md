@@ -59,15 +59,3 @@ layout: default
 </body>
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
-[README](./README.md).
