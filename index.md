@@ -43,7 +43,7 @@ layout: default
             display: none;
             position: absolute;
             background-color: #f1f1f1;
-            min-width: 150px; /* Set a fixed width for the dropdown content */
+            min-width: 300px; /* Set a fixed width for the dropdown content */
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         }
 
