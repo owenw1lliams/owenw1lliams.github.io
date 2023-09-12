@@ -71,7 +71,7 @@ layout: default
         .dropbtn {
             background-color: #4CAF50;
             color: white;
-            padding: 10px;
+            padding: 10px 20px;
             border: none;
             cursor: pointer;
         }
