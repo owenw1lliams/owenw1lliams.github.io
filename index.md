@@ -16,52 +16,14 @@ layout: default
             border: none;
             cursor: pointer;
             text-decoration: none;
+            width: 150px; /* Set a fixed width for the button */
         }
 
         /* Add a hover effect */
         .button:hover {
             background-color: #45a049;
         }
-    </style>
-</head>
-<body>
-    <a href="https://www.linkedin.com/in/owen-williams-6768071b7" class="button">My LinkedIn</a>
-</body>
-</html>
 
-
-
-<html>
-<head>
-    <title>About me</title>
-    <style>
-        /* Style for the button */
-        .button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            text-decoration: none;
-        }
-
-        /* Add a hover effect */
-        .button:hover {
-            background-color: #45a049;
-        }
-    </style>
-</head>
-<body>
-    <a href="https://owenw1lliams.github.io/Aboutme.html" class="button">About Me</a>
-</body>
-</html>
-
-
-
-<html>
-<head>
-    <title>Dropdown Menu</title>
-    <style>
         /* Styles for the dropdown menu */
         .dropdown {
             position: relative;
@@ -74,13 +36,14 @@ layout: default
             padding: 10px 20px;
             border: none;
             cursor: pointer;
+            width: 150px; /* Set a fixed width for the dropdown button */
         }
 
         .dropdown-content {
             display: none;
             position: absolute;
             background-color: #f1f1f1;
-            min-width: 500px;
+            min-width: 150px; /* Set a fixed width for the dropdown content */
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         }
 
@@ -99,10 +62,11 @@ layout: default
         }
     </style>
 </head>
-
-
-
 <body>
+    <a href="https://www.linkedin.com/in/owen-williams-6768071b7" class="button">My LinkedIn</a>
+
+    <a href="https://owenw1lliams.github.io/Aboutme.html" class="button">About Me</a>
+
     <div class="dropdown">
         <button class="dropbtn">Posts</button>
         <div class="dropdown-content">
