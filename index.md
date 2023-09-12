@@ -6,7 +6,59 @@ layout: default
 
 [LinkedIn](https://www.linkedin.com/in/owen-williams-6768071b7)
 
-[About me](./Aboutme.md).
+<html>
+<head>
+    <title>LinkedIn</title>
+    <style>
+        /* Style for the button */
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        /* Add a hover effect */
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.linkedin.com/in/owen-williams-6768071b7" class="button">Button to Another Page</a>
+</body>
+</html>
+
+
+
+<html>
+<head>
+    <title>About me</title>
+    <style>
+        /* Style for the button */
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        /* Add a hover effect */
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://owenw1lliams.github.io/Aboutme.html" class="button">Button to Another Page</a>
+</body>
+</html>
+
+
 
 <html>
 <head>
