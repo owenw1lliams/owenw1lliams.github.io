@@ -25,7 +25,7 @@ layout: default
     </style>
 </head>
 <body>
-    <a href="https://www.linkedin.com/in/owen-williams-6768071b7" class="button">Button to Another Page</a>
+    <a href="https://www.linkedin.com/in/owen-williams-6768071b7" class="button">My LinkedIn</a>
 </body>
 </html>
 
@@ -52,7 +52,7 @@ layout: default
     </style>
 </head>
 <body>
-    <a href="https://owenw1lliams.github.io/Aboutme.html" class="button">Button to Another Page</a>
+    <a href="https://owenw1lliams.github.io/Aboutme.html" class="button">About Me</a>
 </body>
 </html>
 
@@ -99,6 +99,9 @@ layout: default
         }
     </style>
 </head>
+
+
+
 <body>
     <div class="dropdown">
         <button class="dropbtn">Posts</button>
