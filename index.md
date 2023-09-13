@@ -77,5 +77,4 @@ layout: default
 </body>
 </html>
 
-
-
+The github template I use for this website: https://github.com/pages-themes/hacker 
