@@ -67,7 +67,7 @@ layout: default
 
     <a href="https://owenw1lliams.github.io/Aboutme.html" class="button">About Me</a>
 
-    <a href="https://owenw1lliams.github.io/Posts.html" class="button">All Posts</a>
+    <a href="https://owenw1lliams.github.io/posts.html" class="button">All Posts</a>
 
     <div class="dropdown">
         <button class="dropbtn">Recent Posts</button>
