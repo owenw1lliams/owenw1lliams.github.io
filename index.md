@@ -67,8 +67,10 @@ layout: default
 
     <a href="https://owenw1lliams.github.io/Aboutme.html" class="button">About Me</a>
 
+    <a href="https://owenw1lliams.github.io/Posts.html" class="button">All Posts</a>
+
     <div class="dropdown">
-        <button class="dropbtn">Posts</button>
+        <button class="dropbtn">Recent Posts</button>
         <div class="dropdown-content">
             <a href="https://owenw1lliams.github.io/Why The Dark Web Is More Secure Than The Clear Net.html">Why The Darknet Is More Secure, And Safer, Than The Clear Net</a>
             <!-- Add more links to your blog posts with their respective URLs -->
